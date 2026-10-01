@@ -14,16 +14,14 @@ Search the project for `[` to find them all.
 
 | Placeholder | Where |
 |---|---|
-| `[Your email]` | `index.html`: contact list **and** `data-email` on the form; `privacy.html` |
 | `[Your phone]` | `index.html`, `privacy.html` (use `tel:+44...` in the link) |
-| `[Photo]` | `index.html` About section: save as `assets/martin.jpg` and swap in the `<img>` from the comment |
 | `[Screenshot]` ×2 | `index.html` Recent work cards |
 | `[Walking Solves description]` | `index.html` |
 | `[Creator VC description]`, `[Location]`, `[Type of app]` | `index.html` |
 | `[Client quote]`, `[Name, role]` ×2 | `index.html` |
 | `[Domain]` | `index.html` (canonical, og:url, og:image, JSON-LD), `privacy.html`, `robots.txt`, `sitemap.xml` |
 | `[OG image]` | add `assets/og-image.png` (1200×630) for link previews |
-| `[Date]`, `[Email provider]` | `privacy.html` |
+| `[Date]` | `privacy.html` |
 
 ## Run locally
 ```bash

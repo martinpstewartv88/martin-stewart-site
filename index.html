@@ -243,8 +243,7 @@
     <!-- 6. About -->
     <section class="section" id="about" aria-labelledby="about-title">
       <div class="container about">
-        <!-- TODO [Photo]: replace this div with <img src="assets/martin.jpg" alt="Martin Stewart in Bath" width="480" height="560"> -->
-        <div class="about-photo placeholder" role="img" aria-label="Photo of Martin Stewart (placeholder)">[Photo]</div>
+        <img class="about-photo" src="assets/martin.jpg" alt="Martin Stewart outdoors in a cap and glasses" width="719" height="840" loading="lazy">
         <div class="about-copy">
           <h2 id="about-title">Hello, I'm Martin</h2>
           <p>I'm a software developer based in Bath. For more than five years I've been building apps for small organisations, and I've shipped over 100 of them.</p>
@@ -266,15 +265,14 @@
           <h2 id="contact-title">Book a free 30-minute chat</h2>
           <p>Tell me a little about what's taking up your time. When you press send, your own email app will open with your message ready to go.</p>
           <ul class="contact-details">
-            <!-- TODO [Your email]: also update data-email on the form below -->
-            <li><span>Email</span> <a href="mailto:[Your email]">[Your email]</a></li>
+            <li><span>Email</span> <a href="mailto:martinpstewart@gmail.com">martinpstewart@gmail.com</a></li>
             <!-- TODO [Your phone]: use the format tel:+447... in the href -->
             <li><span>Phone</span> <a href="tel:[Your phone]">[Your phone]</a></li>
           </ul>
         </div>
 
         <!-- The form opens the visitor's email app (mailto). Nothing is sent to or stored on this website. -->
-        <form class="contact-form" id="contact-form" data-email="[Your email]" novalidate>
+        <form class="contact-form" id="contact-form" data-email="martinpstewart@gmail.com" novalidate>
           <div class="field">
             <label for="name">Your name</label>
             <input id="name" name="name" type="text" autocomplete="name" required>

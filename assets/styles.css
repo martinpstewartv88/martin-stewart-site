@@ -180,7 +180,7 @@ a:hover { color: var(--accent-dark); }
 
 /* About */
 .about { display: grid; grid-template-columns: .8fr 1.2fr; gap: 56px; align-items: center; }
-.about-photo { aspect-ratio: 6 / 7; border-radius: 20px; }
+.about-photo { aspect-ratio: 6 / 7; border-radius: 20px; width: 100%; height: auto; object-fit: cover; }
 .about img { width: 100%; height: auto; border-radius: 20px; display: block; }
 .facts { list-style: none; padding: 0; margin: 24px 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .facts li { background: var(--bg-tint); border-radius: 12px; padding: 14px; font-size: .95rem; color: var(--muted); }
