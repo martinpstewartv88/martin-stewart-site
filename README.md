@@ -9,19 +9,8 @@ Plain HTML and CSS with no build step. Hosted free on GitHub Pages.
 - `assets/main.js`: mobile menu and contact form (opens the visitor's email app)
 - `404.html`, `robots.txt`, `sitemap.xml`, `.nojekyll`: hosting extras
 
-## Placeholders to fill in
-Search the project for `[` to find them all.
-
-| Placeholder | Where |
-|---|---|
-| `[Your phone]` | `index.html`, `privacy.html` (use `tel:+44...` in the link) |
-| `[Screenshot]` ×2 | `index.html` Recent work cards |
-| `[Walking Solves description]` | `index.html` |
-| `[Creator VC description]`, `[Location]`, `[Type of app]` | `index.html` |
-| `[Client quote]`, `[Name, role]` ×2 | `index.html` |
-| `[Domain]` | `index.html` (canonical, og:url, og:image, JSON-LD), `privacy.html`, `robots.txt`, `sitemap.xml` |
-| `[OG image]` | add `assets/og-image.png` (1200×630) for link previews |
-| `[Date]` | `privacy.html` |
+## Site address
+The site lives at https://martinpstewartv88.github.io/martin-stewart-site/. If you move to a custom domain, update that address in `index.html` (canonical, og:url, og:image, JSON-LD), `privacy.html`, `robots.txt` and `sitemap.xml`.
 
 ## Run locally
 ```bash

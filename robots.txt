@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# TODO [Domain]: replace with your real address
-Sitemap: https://[Domain]/sitemap.xml
+Sitemap: https://martinpstewartv88.github.io/martin-stewart-site/sitemap.xml

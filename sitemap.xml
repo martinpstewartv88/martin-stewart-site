@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO [Domain]: replace with your real address -->
+<!-- Site address: if you move to a custom domain, update it here, in privacy.html, robots.txt and sitemap.xml -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://[Domain]/</loc></url>
-  <url><loc>https://[Domain]/privacy.html</loc></url>
+  <url><loc>https://martinpstewartv88.github.io/martin-stewart-site/</loc></url>
+  <url><loc>https://martinpstewartv88.github.io/martin-stewart-site/privacy.html</loc></url>
 </urlset>

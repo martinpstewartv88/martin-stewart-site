@@ -226,3 +226,20 @@ a:hover { color: var(--accent-dark); }
 .prose h2 { font-size: 1.4rem; margin-top: 1.8em; }
 .prose ul { padding-left: 1.2em; }
 .prose li { margin-bottom: .4em; }
+
+/* Case study screenshots: two overlapping app screens */
+.case-shots { position: relative; background: linear-gradient(135deg, var(--accent-soft), var(--bg-tint)); overflow: hidden; }
+.shot { position: absolute; width: 78%; height: auto; border-radius: 8px; box-shadow: 0 8px 28px rgb(0 0 0 / .22); }
+.shot-back { top: 7%; right: 4%; }
+.shot-front { bottom: 7%; left: 4%; }
+
+/* Single wide case study: screenshots beside the text on larger screens */
+.case-wide { flex-direction: row; }
+.case-wide .case-image { flex: 1 1 52%; aspect-ratio: auto; min-height: 380px; }
+.case-wide .case-body { flex: 1 1 48%; padding: 32px; }
+.case-wide .case-body p:last-child { margin-bottom: 0; }
+@media (max-width: 860px) {
+  .case-wide { flex-direction: column; }
+  .case-wide .case-image { aspect-ratio: 16 / 10; min-height: 0; }
+  .case-wide .case-body { padding: 24px; }
+}
