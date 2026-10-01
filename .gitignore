@@ -1,1 +1,22 @@
+# Secrets: never commit API keys (e.g. RESEND_API_KEY)
+.env
+.env.*
+!.env.example
+
+# Hosting / build tooling
+.vercel/
+.netlify/
+.wrangler/
+node_modules/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
