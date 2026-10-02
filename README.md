@@ -10,7 +10,8 @@ Plain HTML and CSS with no build step. Hosted free on GitHub Pages.
 - `404.html`, `robots.txt`, `sitemap.xml`, `.nojekyll`: hosting extras
 
 ## Site address
-The site lives at https://martinpstewartv88.github.io/martin-stewart-site/. If you move to a custom domain, update that address in `index.html` (canonical, og:url, og:image, JSON-LD), `privacy.html`, `robots.txt` and `sitemap.xml`.
+The site lives at https://martinpstewart.co.uk/ (hosted on GitHub Pages from the `main` branch; the `CNAME` file holds the domain).
+If the domain ever changes, update it in `CNAME`, `index.html` (canonical, og:url, og:image, JSON-LD), `privacy.html`, `robots.txt` and `sitemap.xml`.
 
 ## Run locally
 ```bash

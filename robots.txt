@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://martinpstewartv88.github.io/martin-stewart-site/sitemap.xml
+Sitemap: https://martinpstewart.co.uk/sitemap.xml
