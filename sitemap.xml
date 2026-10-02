@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Site address: if you move to a custom domain, update it here, in privacy.html, robots.txt and sitemap.xml -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martinpstewart.co.uk/</loc></url>
-  <url><loc>https://martinpstewart.co.uk/privacy.html</loc></url>
+<!-- Site address: if the domain changes, update it here too -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://martinpstewart.co.uk/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <image:image><image:loc>https://martinpstewart.co.uk/assets/martin.jpg</image:loc></image:image>
+    <image:image><image:loc>https://martinpstewart.co.uk/assets/walking-solves-walks.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://martinpstewart.co.uk/privacy.html</loc>
+    <lastmod>2026-10-02</lastmod>
+  </url>
 </urlset>

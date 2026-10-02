@@ -3,11 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Martin Stewart | Software developer in Bath for clubs, charities and small businesses</title>
-  <meta name="description" content="Simple apps and databases for clubs, charities, community groups and small businesses in and around Bath. Fixed prices, a free 30-minute chat, and a real person to talk to.">
-  <meta name="keywords" content="software developer Bath, apps for charities Bath, database help Bath, booking system Bath, volunteer rota app, membership database, small business app Bath">
+  <title>Software Developer in Bath | Apps for Charities &amp; Small Businesses</title>
+  <meta name="description" content="Simple apps and databases for charities, clubs and small businesses in Bath and nearby. Fixed prices and a free 30-minute chat with a real person.">
   <meta name="author" content="Martin Stewart">
-  <!-- Site address: if you move to a custom domain, update it here, in privacy.html, robots.txt and sitemap.xml -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#23614a">
+  <meta name="geo.region" content="GB-BAS">
+  <meta name="geo.placename" content="Bath">
+  <meta name="geo.position" content="51.3811;-2.3590">
+  <meta name="ICBM" content="51.3811, -2.3590">
+  <!-- Site address: if the domain changes, update it here, in CNAME, privacy.html, robots.txt and sitemap.xml -->
   <link rel="canonical" href="https://martinpstewart.co.uk/">
 
   <meta property="og:type" content="website">
@@ -17,24 +22,132 @@
   <meta property="og:description" content="Less paperwork, fewer phone calls, no more spreadsheets nobody understands. Fixed prices and a free 30-minute chat.">
   <meta property="og:url" content="https://martinpstewart.co.uk/">
   <meta property="og:image" content="https://martinpstewart.co.uk/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Martin Stewart: simple apps and databases for Bath's clubs, charities and small businesses">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Simple apps and databases for Bath's clubs, charities and small businesses">
+  <meta name="twitter:description" content="Less paperwork, fewer phone calls, no more spreadsheets nobody understands. Fixed prices and a free 30-minute chat.">
+  <meta name="twitter:image" content="https://martinpstewart.co.uk/assets/og-image.png">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/styles.css" as="style">
   <link rel="stylesheet" href="assets/styles.css">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Martin Stewart",
-    "description": "Simple apps and databases for clubs, charities and small businesses in and around Bath.",
-    "url": "https://martinpstewart.co.uk/",
-    "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 51.3811, "longitude": -2.3590 }, "geoRadius": "32000" },
-    "address": { "@type": "PostalAddress", "addressLocality": "Bath", "addressCountry": "GB" },
-    "telephone": "+447791799465",
-    "email": "martinpstewart@gmail.com",
-    "priceRange": "££"
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://martinpstewart.co.uk/#business",
+        "name": "Martin Stewart, Software Developer",
+        "description": "Simple apps and databases for charities, clubs, community groups and small businesses in Bath and nearby.",
+        "url": "https://martinpstewart.co.uk/",
+        "image": "https://martinpstewart.co.uk/assets/og-image.png",
+        "logo": "https://martinpstewart.co.uk/assets/apple-touch-icon.png",
+        "telephone": "+447791799465",
+        "email": "martinpstewart@gmail.com",
+        "priceRange": "££",
+        "address": { "@type": "PostalAddress", "addressLocality": "Bath", "addressRegion": "Somerset", "addressCountry": "GB" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 51.3811, "longitude": -2.3590 },
+        "areaServed": [
+          { "@type": "City", "name": "Bath" },
+          { "@type": "City", "name": "Bristol" },
+          { "@type": "City", "name": "Keynsham" },
+          { "@type": "City", "name": "Bradford on Avon" },
+          { "@type": "City", "name": "Trowbridge" },
+          { "@type": "City", "name": "Frome" },
+          { "@type": "City", "name": "Corsham" },
+          { "@type": "City", "name": "Midsomer Norton" },
+          { "@type": "City", "name": "Radstock" },
+          { "@type": "City", "name": "Chippenham" }
+        ],
+        "founder": { "@id": "https://martinpstewart.co.uk/#martin" },
+        "knowsAbout": ["Booking systems", "Membership databases", "Volunteer rotas", "Waiting lists", "Job tracking and quotes", "Apps for charities"],
+        "makesOffer": [
+          { "@type": "Offer", "name": "Full app", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2000, "priceCurrency": "GBP" } },
+          { "@type": "Offer", "name": "Full app for charities and CICs", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1500, "priceCurrency": "GBP" } },
+          { "@type": "Offer", "name": "Smaller database work", "priceSpecification": { "@type": "UnitPriceSpecification", "price": 50, "priceCurrency": "GBP", "unitText": "hour" } },
+          { "@type": "Offer", "name": "Free 30-minute discovery chat", "price": 0, "priceCurrency": "GBP" }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://martinpstewart.co.uk/#martin",
+        "name": "Martin Stewart",
+        "jobTitle": "Software Developer",
+        "image": "https://martinpstewart.co.uk/assets/martin.jpg",
+        "homeLocation": { "@type": "Place", "name": "Bath, UK" },
+        "url": "https://martinpstewart.co.uk/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://martinpstewart.co.uk/#website",
+        "url": "https://martinpstewart.co.uk/",
+        "name": "Martin Stewart",
+        "inLanguage": "en-GB",
+        "publisher": { "@id": "https://martinpstewart.co.uk/#business" }
+      }
+    ]
   }
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a custom app cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full app usually starts from around £2,000, or around £1,500 for charities and CICs. Smaller database jobs are £50 an hour. You'll get a fixed price before any work starts, so there are no surprises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with charities and community groups?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Charities, CICs, clubs and community groups are a big part of what I do, and there's a reduced price for charities and CICs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which areas do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I'm based in Bath and work with organisations within about 20 miles, including Bristol, Keynsham, Bradford on Avon, Trowbridge, Frome, Corsham, Midsomer Norton and Radstock. I'm happy to meet in person or talk on a call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to know anything technical?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not at all. You tell me how things work now and what's taking up your time. I'll explain everything in plain English and build it around the way your people already work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you fix the spreadsheet or database we already have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, yes. Tidying up or improving an existing spreadsheet or database is charged at £50 an hour, and I'll tell you up front roughly how long it should take."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens once the app is built?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I stay on hand for questions, small changes and support, so you're never left on your own with it."
+      }
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -57,6 +170,7 @@
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a class="nav-cta" href="#contact">Get in touch</a></li>
         </ul>
       </nav>
@@ -75,7 +189,7 @@
             <a class="button" href="#contact">Book a free 30-minute chat</a>
             <a class="button button-ghost" href="#pricing">See prices</a>
           </div>
-          <p class="hero-note">Working with groups within about 20 miles of Bath.</p>
+          <p class="hero-note">Working with groups in Bath and up to about 20 miles away, including Bristol, Keynsham, Bradford on Avon, Frome and Trowbridge.</p>
         </div>
         <div class="hero-art" aria-hidden="true">
           <!-- Simple illustration: a Georgian crescent skyline. Swap for your own photo of Bath if you like. -->
@@ -234,7 +348,7 @@
         <img class="about-photo" src="assets/martin.jpg" alt="Martin Stewart outdoors in a cap and glasses" width="719" height="840" loading="lazy">
         <div class="about-copy">
           <h2 id="about-title">Hello, I'm Martin</h2>
-          <p>I'm a software developer based in Bath. For more than five years I've been building apps for small organisations, and I've shipped over 100 of them.</p>
+          <p>I'm a software developer based in Bath, working with charities, clubs and small businesses across Bath and North East Somerset and nearby Wiltshire. For more than five years I've been building apps for small organisations, and I've shipped over 100 of them.</p>
           <p>I like the practical side: sitting down with the people who do the work, understanding what's slowing them down, and building something simple that fixes it. You won't get jargon from me, and you'll always be talking to the person who builds your app.</p>
           <p>Away from the keyboard I'm a musician. I play guitar, drums and bass, so I know a bit about how clubs and groups really run.</p>
           <ul class="facts">
@@ -242,6 +356,39 @@
             <li><strong>100+</strong> apps shipped</li>
             <li><strong>Bath</strong> based, working within about 20 miles</li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-tint" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <h2 id="faq-title">Common questions</h2>
+        <div class="faq">
+          <details class="faq-item">
+            <summary>How much does a custom app cost?</summary>
+            <p>A full app usually starts from around £2,000, or around £1,500 for charities and CICs. Smaller database jobs are £50 an hour. You&#x27;ll get a fixed price before any work starts, so there are no surprises.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you work with charities and community groups?</summary>
+            <p>Yes. Charities, CICs, clubs and community groups are a big part of what I do, and there&#x27;s a reduced price for charities and CICs.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which areas do you cover?</summary>
+            <p>I&#x27;m based in Bath and work with organisations within about 20 miles, including Bristol, Keynsham, Bradford on Avon, Trowbridge, Frome, Corsham, Midsomer Norton and Radstock. I&#x27;m happy to meet in person or talk on a call.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need to know anything technical?</summary>
+            <p>Not at all. You tell me how things work now and what&#x27;s taking up your time. I&#x27;ll explain everything in plain English and build it around the way your people already work.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can you fix the spreadsheet or database we already have?</summary>
+            <p>Often, yes. Tidying up or improving an existing spreadsheet or database is charged at £50 an hour, and I&#x27;ll tell you up front roughly how long it should take.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What happens once the app is built?</summary>
+            <p>I stay on hand for questions, small changes and support, so you&#x27;re never left on your own with it.</p>
+          </details>
         </div>
       </div>
     </section>

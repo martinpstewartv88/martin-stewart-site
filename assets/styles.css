@@ -243,3 +243,18 @@ a:hover { color: var(--accent-dark); }
   .case-wide .case-image { aspect-ratio: 16 / 10; min-height: 0; }
   .case-wide .case-body { padding: 24px; }
 }
+
+/* FAQ */
+.faq { max-width: 780px; display: grid; gap: 12px; }
+.faq-item { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 0 20px; }
+.faq-item summary {
+  cursor: pointer; list-style: none; padding: 18px 32px 18px 0; position: relative;
+  font-weight: 600; font-size: 1.05rem;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+  font-size: 1.5rem; font-weight: 400; color: var(--accent);
+}
+.faq-item[open] summary::after { content: "–"; }
+.faq-item p { color: var(--muted); margin: 0 0 18px; }
